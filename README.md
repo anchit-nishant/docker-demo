@@ -36,6 +36,7 @@ RUN pip install -r requirements.txt
 
 EXPOSE 5000
 CMD ["python", "/app/main.py"]
+EOF
 ```
 
 Create a python application:
@@ -54,6 +55,7 @@ def hello():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
+EOF
 ```
 
 Build the container:
