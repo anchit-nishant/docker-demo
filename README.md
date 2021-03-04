@@ -84,7 +84,7 @@ curl http://localhost:5000
 Stop and remove the container
 
 ```bash
-docker stop app && docker rm app
+docker stop [container id] && docker rm [container id]
 ```
 
 Run the following command to start the container in the background
