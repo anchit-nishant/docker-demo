@@ -57,6 +57,12 @@ if __name__ == "__main__":
     app.run(host='0.0.0.0')
 EOF
 ```
+Create requirements.txt:
+```bash
+cat > requirements.txt <<EOF
+Flask
+EOF
+```
 
 Build the container:
 ```bash
